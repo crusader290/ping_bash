@@ -1,6 +1,6 @@
 # Server Status Indicator
 
-Using bash shell ping to server and show time, ip and status
+Using bash shell ping to show server, time, ip and status
 
 # Notes
 Output constantly clears and refreshes (single line), as opposed to continuously printing output (multiple lines).
