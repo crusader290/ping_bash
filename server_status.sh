@@ -8,7 +8,6 @@ if [ -z $host ]; then
 fi
 
 while :; do
-    tput clear
     result=`ping -W 1 -c 1 $host | grep 'bytes from '`
     if [ $? -gt 0 ]; then
         echo -e "`date +'%Y/%m/%d %H:%M:%S'` - host $host is \033[0;31mOFFLINE\033[0m"
